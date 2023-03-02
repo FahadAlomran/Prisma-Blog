@@ -13,7 +13,7 @@ router.get('/',getAllBlog)
 
 router.get('/:id',getUserBlog)
 
-router.post('/',createOneBlog)
+router.post('/:id',createOneBlog)
 
 router.put('/:id',updateBlog)
 
